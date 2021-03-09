@@ -87,4 +87,4 @@ services:
       CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
       CONNECT_PLUGIN_PATH: "/usr/share/kafka/plugins"
     volumes:
-      - ./connectors:/usr/share/kafka/plugins
+      - ./connect:/usr/share/kafka/plugins
