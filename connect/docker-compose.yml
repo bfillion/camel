@@ -88,3 +88,4 @@ services:
       CONNECT_PLUGIN_PATH: "/usr/share/kafka/plugins"
     volumes:
       - ./connect:/usr/share/kafka/plugins
+      - ./fichiers:/usr/share/fichiers
