@@ -1,5 +1,9 @@
 ## Log
 
+```bash
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" http://localhost:8083/connectors/ -d @log.json
+```
+
 ```json
 {
     "name": "CamelLogSinkConnector-0",
@@ -15,6 +19,10 @@
 ```
 
 ## File watcher
+
+```bash
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" http://localhost:8083/connectors/ -d @file-watcher.json
+```
 
 ```json
 {
