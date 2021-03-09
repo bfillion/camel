@@ -1,0 +1,11 @@
+{
+    "name": "CamelFile-watchSourceConnector-0",
+    "config": {
+        "connector.class": "org.apache.camel.kafkaconnector.filewatch.CamelFilewatchSourceConnector",
+        "tasks.max": "1",
+        "topics": "test-topic",
+        "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+        "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+        "camel.source.path.path": "/usr/share/fichiers"
+    }
+}
